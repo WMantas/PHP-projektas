@@ -1,0 +1,1 @@
+<a href="vaizdai/registracija.php">Registracija</a>
