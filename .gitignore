@@ -1,0 +1,9 @@
+# XAMPP / PHP
+*.log
+
+# VS Code
+.vscode/
+
+# Windows
+Thumbs.db
+

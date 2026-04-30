@@ -28,3 +28,4 @@ if (isset($_POST["registruoti"])) {
     <input type="password" name="slaptazodis" placeholder="Slaptazodis"><br><br>
     <button name="registruoti">Registruotis</button>
 </form>
+<a href="../index.php">Atgal</a>
