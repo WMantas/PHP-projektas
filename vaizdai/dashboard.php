@@ -1,4 +1,13 @@
-<h2>Sveikas!</h2>
+<?php
+session_start();
 
-<a href="generatorius.php">Slaptazodziu generatorius</a><br><br>
-<a href="../index.php">Atgal</a>
+if (!isset($_SESSION["user_id"])) {
+    header("Location: login.php");
+    exit();
+}
+?>
+
+<h2>Sveikas, <?php echo $_SESSION["username"]; ?>!</h2>
+
+<a href="slaptazodziai.php">Slaptazodziu saugojimas</a><br>
+<a href="logout.php">Atsijungti</a>
